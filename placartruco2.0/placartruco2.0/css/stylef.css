@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    background-color: #272B40;
+}
+
+.main{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    width: 100%;
+    margin: auto;
+    margin-top: 50px;
+    background-color: #272B40;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    font-family: Arial;
+}
+
+.patos {
+    border: 3px solid #141d26;
+    margin: auto;
+    margin-top: 1px;
+    background-color: #141d26;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px#000000;
+    align-content: center;
+}
+
+#patos{
+    border-radius: 10px;
+    height: 50vh;
+    width: 100vw;
+    margin: 10px;
+}
+
+.voltar {
+    width: 25px;
+    height: 25px;
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/stylem.css">
+    <title>Marcar tento</title>
+</head>
+<body>
+
+    <!--
+        <div class="link"> 
+        <a href="placar.html" class="button"><img class="voltar" src="imagens/placar.png" alt="placar de líderes"></a>
+        </div>
+    -->
+
+    <h1>MARCADOR DE TENTO</h1>
+
+    <div calss="main">
+        <div class="up">
+
+            <div class="container">
+                <div class="equipe1">NÓS</div>
+                <h2 id="score">0</h2>
+                <button class="increment" onclick="increment()">+</button><button class="decrement" onclick="decrement()">-</button>
+                <button class="truco" onclick="truco()">TRUCO</button>
+            </div>
+
+            <div class="container2">
+                <div class="equipe2">ELES</div>
+                <h2 id="score2">0</h2>
+                <button class="increment2" onclick="increment2()">+</button><button class="decrement2" onclick="decrement2()">-</button>
+                <button class="truco2" onclick="truco2()">TRUCO</button>
+            </div>
+
+        </div>
+
+        <div class="down">
+            <button class="reset" onclick="reset()">Reset</button>
+        </div>
+    </div>
+
+    <script src="scripts/index.js"></script>
+
+</body>
+</html>
